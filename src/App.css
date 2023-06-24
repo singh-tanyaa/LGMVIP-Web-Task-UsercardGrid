@@ -1,38 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Creepster&family=IBM+Plex+Mono:wght@300&family=Lobster&display=swap');
+ 
 .App {
   text-align: center;
+  padding: 20px;
+}
+body{
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: black;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+.logo{
+  width:130px;
+  height:78px;
+}
+
+.get-users-btn {
+  position:fixed;
+  /* bottom:20px; */
+  right:20px;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius:5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.get-users-btn :hover{
+  background-color: #2196f3;
+}
+.next-page-btn{
+  background-color: aqua;
+  border: none;
+  padding: 10px 20px;
+  border-radius:5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.next-page-btn:hover{
+  background-color:red;
 }
 
-.App-link {
-  color: #61dafb;
+.user-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap:20px;
+border:5px solid #d7ed30;
+border-radius:9px;
+padding: 20px;
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.user-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(19, 73, 53);
+  font-family: 'Lobster', cursive;
+  color: azure;
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border:4px solid rgb(202, 251, 7);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.loader {
+  font-size: 20px;
+  margin-top:50px;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin{
+  0%{
+    transform:rotate(0deg);
   }
-  to {
+  100%{
     transform: rotate(360deg);
   }
+}
+
+.next-page-btn {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:20px;
 }
