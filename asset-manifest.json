@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LGMVIP-Web-Task-UsercardGrid/static/css/main.342d7e1b.css",
+    "main.js": "/LGMVIP-Web-Task-UsercardGrid/static/js/main.0251bbbf.js",
+    "static/js/787.e32010a3.chunk.js": "/LGMVIP-Web-Task-UsercardGrid/static/js/787.e32010a3.chunk.js",
+    "static/media/lgmlogo.jpg": "/LGMVIP-Web-Task-UsercardGrid/static/media/lgmlogo.e9c8286efcac002b79cd.jpg",
+    "index.html": "/LGMVIP-Web-Task-UsercardGrid/index.html",
+    "main.342d7e1b.css.map": "/LGMVIP-Web-Task-UsercardGrid/static/css/main.342d7e1b.css.map",
+    "main.0251bbbf.js.map": "/LGMVIP-Web-Task-UsercardGrid/static/js/main.0251bbbf.js.map",
+    "787.e32010a3.chunk.js.map": "/LGMVIP-Web-Task-UsercardGrid/static/js/787.e32010a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.342d7e1b.css",
+    "static/js/main.0251bbbf.js"
+  ]
+}
